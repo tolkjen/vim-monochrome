@@ -85,6 +85,9 @@ EOS
 hi :Normal
 hi :Cursor, fg: black, bg: lgray
 
+# Color column
+hi :ColorColumn, bg: bgray
+
 # Cursor line.
 hi :CursorLine, bg: bgray
 hi :CursorLineNr, fg: white, bold: true
@@ -109,7 +112,7 @@ hi :Type, fg: white, bold: true
 hi :Function, fg: white
 hi :Identifier
 hi :Special
-hi :MatchParen, fg: black, bg: lgray
+hi :MatchParen, underline: true
 
 # Ruby tweaks.
 hi :rubyConstant
